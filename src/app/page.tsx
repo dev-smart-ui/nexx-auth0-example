@@ -6,6 +6,7 @@ export default async function Home() {
   if (!session) {
     return (
         <main>
+            <h1>test </h1>
           <a href="/auth/login?screen_hint=signup">Sign up</a>
           <a href="/auth/login">Log in</a>
 
